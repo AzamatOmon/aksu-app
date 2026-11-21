@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/api/go?src=umumiy" },
+    { "source": "/statistika", "destination": "/api/stats" },
+    { "source": "/:src([a-z0-9-]{1,40})", "destination": "/api/go?src=:src" }
+  ]
+}
